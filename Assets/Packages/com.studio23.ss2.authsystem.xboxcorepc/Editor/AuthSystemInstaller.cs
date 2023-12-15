@@ -3,11 +3,11 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace Studio23.SS2.AuthSystem.XboxCore.Editor
+namespace Studio23.SS2.AuthSystem.XboxCorePC.Editor
 {
     public class AuthSystemInstaller : UnityEditor.Editor
     {
-        [MenuItem("Studio-23/AuthSystem/XboxCore/Install", false, 10)]
+        [MenuItem("Studio-23/AuthSystem/XboxCorePC/Install", false, 10)]
         static void InstantiatePrefab()
         {
             GameObject prefab = Resources.Load<GameObject>("GameCoreAuth");
