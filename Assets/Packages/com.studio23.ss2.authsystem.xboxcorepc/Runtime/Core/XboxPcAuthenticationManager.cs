@@ -13,7 +13,7 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
         {
             Login();
         }
-        public void Login()
+        private void Login()
         {
             MSGdk.Helpers.SignIn();
         }
