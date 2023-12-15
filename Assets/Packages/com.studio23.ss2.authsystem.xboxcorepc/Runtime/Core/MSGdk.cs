@@ -66,8 +66,8 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
 #if MICROSOFT_GAME_CORE || UNITY_GAMECORE
         private XStoreContext _storeContext = null;
-        private XUserHandle _userHandle;
-        private XblContextHandle _xblContextHandle;
+        public XUserHandle UserHandle;
+        public XblContextHandle XblContextHandle;
         private XGameSaveWrapper _gameSaveHelper;
 
         private List<XStoreProduct> _associatedProducts;
@@ -86,7 +86,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
         private TaskCompletionSource<bool> _userDataLoaded = new TaskCompletionSource<bool>();
         
        
-        /*public static MSGdk Helpers
+         public static MSGdk Helpers
         {
             get
             {
@@ -96,7 +96,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                     if (xboxHelperInstances.Length > 0)
                     {
                         _xboxHelpers = xboxHelperInstances[0];
-                        _xboxHelpers._Initialize();
+                        _xboxHelpers.InitAndSignIn();
                     }
                     else
                     {
@@ -106,7 +106,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
                 return _xboxHelpers;
             }
-        }*/
+        }
 
         public delegate void OnGameSaveLoadedHandler(object sender, GameSaveLoadedArgs e);
 #pragma warning disable 0067 // Called when MICROSOFT_GAME_CORE is defined
@@ -118,6 +118,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
         private bool ValidateGuid(string guid)
         {
+             
             var groups = guid.Split('-');
             if (groups.Length != 5) return false;
 
@@ -290,7 +291,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             }
 
             Debug.Log($"Sing in success!");
-            _userHandle = userHandle;
+            UserHandle = userHandle;
             CompletePostSignInInitialization();
             GetCurrentUserDataAsync();
         }
@@ -302,8 +303,8 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                 scid
                 ), "Initialize Xbox Live");
             Succeeded(SDK.XBL.XblContextCreateHandle(
-                    _userHandle,
-                    out _xblContextHandle
+                    UserHandle,
+                    out XblContextHandle
                 ), "Create Xbox Live context");
             
             
@@ -315,7 +316,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
        
         private void InitializeGameSaves()
         {
-            _gameSaveHelper.InitializeAsync(_userHandle, scid, XGameSaveInitializeCompleted);
+            _gameSaveHelper.InitializeAsync(UserHandle, scid, XGameSaveInitializeCompleted);
         }
 
         private void XGameSaveInitializeCompleted(int hresult)
@@ -364,15 +365,15 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
         private async Task GetUserData()
         {
-            if (!Succeeded(SDK.XUserGetId(_userHandle, out var xuid), "Get Xbox user ID"))
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out var xuid), "Get Xbox user ID"))
             {
-                Debug.LogError("Failed to load XUserGetId from _userHandle");
+                Debug.LogError("Failed to load XUserGetId from UserHandle");
                 _userDataLoaded.SetResult(true);
             }
             
-            if (!Succeeded(SDK.XUserGetGamertag(_userHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
+            if (!Succeeded(SDK.XUserGetGamertag(UserHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
             {
-                Debug.LogError("Failed to load XUserGetGamerTag from _userHandle");
+                Debug.LogError("Failed to load XUserGetGamerTag from UserHandle");
                 _userDataLoaded.SetResult(true);
             }
             
@@ -383,7 +384,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
            
             
             
-            SDK.XUserGetGamerPictureAsync(_userHandle, XUserGamerPictureSize.Small, CompletionRoutine);
+            SDK.XUserGetGamerPictureAsync(UserHandle, XUserGamerPictureSize.Small, CompletionRoutine);
         }
         
         private void CompletionRoutine(int hresult, byte[] buffer)
@@ -413,15 +414,15 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
         private void GetUserData2()
         {
             CurrentUserData = new UserData();
-            if (!Succeeded(SDK.XUserGetId(_userHandle, out var xuid), "Get Xbox user ID"))
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out var xuid), "Get Xbox user ID"))
             {
-                Debug.LogError("Failed to load XUserGetId from _userHandle");
+                Debug.LogError("Failed to load XUserGetId from UserHandle");
                 
             }
             
-            if (!Succeeded(SDK.XUserGetGamertag(_userHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
+            if (!Succeeded(SDK.XUserGetGamertag(UserHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
             {
-                Debug.LogError("Failed to load XUserGetGamerTag from _userHandle");
+                Debug.LogError("Failed to load XUserGetGamerTag from UserHandle");
                
             }
             
@@ -432,16 +433,102 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             Debug.Log($"Authentication, Login and set UserData Successful! {CurrentUserData.UserName}");
         }*/
         
-        private void UnlockAchievementImpl(string achievementId)
+         #region MarufTest
+         public InputField selectAchievementId;
+         public InputField selectAchievementPercentage;
+        public void UnlockAchievementAdditivelyUI()
         {
-           
+            string achievementId = selectAchievementId.text;
+            string result = selectAchievementPercentage.text;
+            uint progression = UInt32.Parse(result);
             ulong xuid;
-            if (!Succeeded(SDK.XUserGetId(_userHandle, out xuid), "Get Xbox user ID"))
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out xuid), "Get Xbox user ID"))
             {
                 return;
             }
             SDK.XBL.XblAchievementsUpdateAchievementAsync(
-                    _xblContextHandle,
+                XblContextHandle,
+                xuid,
+                achievementId,
+                progression,
+                UnlockAchievementComplete
+            );
+            
+           
+            
+        }
+
+       
+        
+        public void XblAchievementsGetAchievementsForTitleIdAsync()
+        {
+            ulong xuid;
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out xuid), "Get Xbox user ID"))
+            {
+                return;
+            }
+            uint titleId;
+            SDK.XGameGetXboxTitleId(out titleId);
+            SDK.XBL.XblAchievementsGetAchievementsForTitleIdAsync(XblContextHandle, xuid, titleId , XblAchievementType.All, false, XblAchievementOrderBy.DefaultOrder, 0, 20, XblAchievementsGetAchievementsForTitleIdAsync_CompletionRoutine);
+            
+        }
+
+        private void XblAchievementsGetAchievementsForTitleIdAsync_CompletionRoutine(int hresult, XblAchievementsResultHandle result)
+        {
+            XblAchievement[] achievements;
+            int resultCode = SDK.XBL. XblAchievementsResultGetAchievements(result, out achievements);
+            if (resultCode == 0)
+            {
+                foreach (var achievement in achievements)
+                {
+                    Debug.Log($"Achievement Id: {achievement.Id}; Name: {achievement.Name}; ProgressState: {achievement.ProgressState} ;");
+                    if(achievement.Progression.Requirements.Length > 0)
+                        foreach (XblAchievementRequirement requirement in achievement.Progression.Requirements)
+                        {
+                            Debug.Log($" Requirements {requirement.CurrentProgressValue} {requirement.TargetProgressValue}");
+                        }
+                    else Debug
+                        .Log("Requirements length is 0");
+                }
+            }
+            else
+            {
+                Debug.LogError("Error retrieving achievements");
+            }
+            
+            SDK.XBL.XblAchievementsResultCloseHandle(result);
+            
+        }
+
+        
+        public void UnlockAchievementProgression(string achievementId, uint progression)
+        {
+            ulong xuid;
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out xuid), "Get Xbox user ID"))
+            {
+                return;
+            }
+            SDK.XBL.XblAchievementsUpdateAchievementAsync(
+                XblContextHandle,
+                xuid,
+                achievementId,
+                progression,
+                UnlockAchievementComplete
+            );
+        }
+
+        #endregion
+        
+        private void UnlockAchievementImpl(string achievementId)
+        {
+           
+            ulong xuid;
+            if (!Succeeded(SDK.XUserGetId(UserHandle, out xuid), "Get Xbox user ID"))
+            {
+                return;
+            }
+            SDK.XBL.XblAchievementsUpdateAchievementAsync(
+                    XblContextHandle,
                     xuid,
                     achievementId,
                     _100PercentAchievementProgress,

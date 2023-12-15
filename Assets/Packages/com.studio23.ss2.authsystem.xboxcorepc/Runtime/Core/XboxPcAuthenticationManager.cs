@@ -15,29 +15,16 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
         }
         private void Login()
         {
-            MSGdk msGdk = FindObjectOfType<MSGdk>();
-             if (msGdk != null)
-             {
-                  msGdk.InitAndSignIn();
-             }
-             else
-             {
-                Debug.LogError($"MS GDK Not Found!");
-             }
+           
+           
+                  MSGdk.Helpers.InitAndSignIn();
+            
         }
         public override UserData GetUserData()
         {
-            MSGdk msGdk = FindObjectOfType<MSGdk>();
-            if (msGdk != null)
-            {
-              return  msGdk.CurrentUserData;
-            }  else
-            {
-                Debug.LogError($"MS GDK Not Found!");
-                return null;
-            }
-            
            
+              return   MSGdk.Helpers.CurrentUserData;
+              
         }
     }
 }
