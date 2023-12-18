@@ -1,3 +1,5 @@
+using System;
+using System.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
 using Studio23.SS2.Authsystem.XboxCorePC.Core;
 using UnityEngine;
@@ -13,31 +15,29 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
         {
             Login();
         }
+
+        
         private void Login()
         {
-            MSGdk msGdk = FindObjectOfType<MSGdk>();
-             if (msGdk != null)
-             {
-                  msGdk.InitAndSignIn();
-             }
-             else
-             {
-                Debug.LogError($"MS GDK Not Found!");
-             }
+            MSGdk.Helpers.InitAndSignIn();
+
+            MSGdk.Helpers.UserDataLoaded.Task.ContinueWith(task => 
+            {
+                if (task.IsCompleted)
+                {
+                    OnAuthSuccess.Invoke();
+                }
+            });
+           
+           
+
         }
+        
         public override UserData GetUserData()
         {
-            MSGdk msGdk = FindObjectOfType<MSGdk>();
-            if (msGdk != null)
-            {
-              return  msGdk.CurrentUserData;
-            }  else
-            {
-                Debug.LogError($"MS GDK Not Found!");
-                return null;
-            }
-            
            
+              return   MSGdk.Helpers.CurrentUserData;
+              
         }
     }
 }
