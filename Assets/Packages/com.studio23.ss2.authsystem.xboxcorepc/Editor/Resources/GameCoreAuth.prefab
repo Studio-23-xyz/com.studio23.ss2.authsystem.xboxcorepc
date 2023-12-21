@@ -72,7 +72,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88f396ad80b60648b845818203f236b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scid: 00000000-0000-0000-0000-0000649390c6
-  AutoSignInOnStart: 1
-  selectAchievementId: {fileID: 0}
-  selectAchievementPercentage: {fileID: 0}
+  scid: 00000000-0000-0000-0000-0000849390e8
