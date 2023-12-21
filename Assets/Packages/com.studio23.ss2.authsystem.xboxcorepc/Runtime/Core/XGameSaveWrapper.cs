@@ -201,7 +201,15 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
                         blobData = blobs[0].Data;
                     }
                 }
+                else
+                {
+                    blobData = Array.Empty<byte>();
+                }
 
+                if (blobData == null)
+                {
+                    blobData = new byte[0];
+                }
                 SDK.XGameSaveCloseContainer(containerHandle);
 
                 callback(hresult, blobData);

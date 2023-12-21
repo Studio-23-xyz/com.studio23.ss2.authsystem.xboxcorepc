@@ -1,10 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT license.
-
-#if UNITY_GAMECORE
-using Unity.GameCore;
-#endif
-#if MICROSOFT_GAME_CORE
+﻿#if MICROSOFT_GAME_CORE
 using XGamingRuntime;
 #endif
 
@@ -77,8 +71,12 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 #endif
 
         private const int _100PercentAchievementProgress = 100;
-        private const string _GameSaveContainerName = "x_game_save_default_container";
-        private const string _GameSaveBlobName = "x_game_save_default_blob";
+        private const string _GameSaveContainerName =  "cloud";  
+        private const string _GameSaveBlobName =  "cloud_blobBuffer";  
+        
+      //  private const string _GameSaveContainerName = "x_game_save_default_container";  
+      //  private const string _GameSaveBlobName = "x_game_save_default_blob";  
+        
         private const int _MaxAssociatedProductsToRetrieve = 25;
 
         public UserData CurrentUserData;
@@ -326,10 +324,10 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
         private void GameSaveLoadCompleted(int hresult, byte[] savedData)
         {
-            if (!Succeeded(hresult, "Loaded Blob"))
+            /*if (!Succeeded(hresult, "Loaded Blob"))
             {
                 return;
-            }
+            }*/
 
             if (Helpers.OnGameSaveLoaded != null)
             {
