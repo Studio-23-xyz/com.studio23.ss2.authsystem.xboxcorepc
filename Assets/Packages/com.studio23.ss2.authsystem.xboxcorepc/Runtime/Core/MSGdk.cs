@@ -8,6 +8,7 @@ using System.Xml.Linq;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.XboxCorePC.Core;
 using Studio23.SS2.AuthSystem.XboxCorePC.Utility;
 using UnityEngine;
@@ -71,16 +72,15 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 #endif
 
         private const int _100PercentAchievementProgress = 100;
-        private const string _GameSaveContainerName =  "cloud";  
-        private const string _GameSaveBlobName =  "cloud_blobBuffer";  
+        private   string _GameSaveContainerName =  "cloud";  //"x_game_save_default_container"; 
+        private   string _GameSaveBlobName =  "cloud_blobBuffer";   //"x_game_save_default_blob";  
         
-      //  private const string _GameSaveContainerName = "x_game_save_default_container";  
-      //  private const string _GameSaveBlobName = "x_game_save_default_blob";  
+      
         
         private const int _MaxAssociatedProductsToRetrieve = 25;
 
         public UserData CurrentUserData;
-        public TaskCompletionSource<bool> UserDataLoaded;
+      
         
        
          public static MSGdk Helpers
@@ -180,7 +180,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             
             _initialized = true;
             DontDestroyOnLoad(gameObject);
-            UserDataLoaded  = new TaskCompletionSource<bool>();
+            UserDataLoaded = new UniTaskCompletionSource<bool>();
             _hresultToFriendlyErrorLookup = new Dictionary<int, string>();
             InitializeHresultToFriendlyErrorLookup();
 
@@ -234,9 +234,24 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 #if MICROSOFT_GAME_CORE || UNITY_GAMECORE
             SignInImpl();
 #endif
+             
         }
 
-        public void Save(byte[] data)
+        public void Save(string key, byte[] data)
+        {
+         _GameSaveContainerName =  key;
+         _GameSaveBlobName =  $"{key}_blobBuffer";
+         
+         Save( data);
+        }
+        public void Delete(string key)
+        {
+            _gameSaveHelper.Delete(
+                _GameSaveContainerName,
+                _GameSaveBlobName,
+                GameSaveSaveCompleted);
+        }
+        private void Save(byte[] data)
         {
 #if MICROSOFT_GAME_CORE || UNITY_GAMECORE
             _gameSaveHelper.Save(
@@ -247,7 +262,13 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 #endif
         }
 
-        public void LoadSaveData()
+        public void LoadSaveData(string key)
+        {
+            _GameSaveContainerName =  key;
+            _GameSaveBlobName =  $"{key}_blobBuffer";
+            LoadSaveData();
+        }
+        private void LoadSaveData()
         {
 #if MICROSOFT_GAME_CORE || UNITY_GAMECORE
             _gameSaveHelper.Load(
@@ -281,9 +302,9 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             Debug.Log($"Sing in success!");
             UserHandle = userHandle;
             CompletePostSignInInitialization();
-            
-           
-            GetCurrentUserDataAsync();
+
+
+            LoadUserDataAsync();
         }
 
         private void CompletePostSignInInitialization()
@@ -334,50 +355,40 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                 Helpers.OnGameSaveLoaded(Helpers, new GameSaveLoadedArgs(savedData));
             }
         }
-
-       
-        [ContextMenu("GetCurrentUserDataAsync")]
-        public async Task<UserData> GetCurrentUserDataAsync()
+        
+        public UniTaskCompletionSource<bool> UserDataLoaded;
+        [ContextMenu("LoadUserDataAsync")]
+        private async UniTask  LoadUserDataAsync()
         {
             CurrentUserData = new UserData();
-            if (CurrentUserData == null || !UserDataLoaded.Task.IsCompleted)
-            {
-                await LoadUserDataAsync();
-                
-                
-            }
-            return CurrentUserData;
-        }
-
-        private async Task LoadUserDataAsync()
-        {
             await GetUserData();
             await UserDataLoaded.Task;
         }
 
-        private async Task GetUserData()
+        private async UniTask GetUserData()
         {
             if (!Succeeded(SDK.XUserGetId(UserHandle, out var xuid), "Get Xbox user ID"))
             {
                 Debug.LogError("Failed to load XUserGetId from UserHandle");
-                UserDataLoaded.SetResult(true);
+                UserDataLoaded.TrySetException(new Exception("Failed to load XUserGetId from UserHandle"));
+                return; // Early return in case of error
             }
-            
+
             if (!Succeeded(SDK.XUserGetGamertag(UserHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
             {
                 Debug.LogError("Failed to load XUserGetGamerTag from UserHandle");
-                UserDataLoaded.SetResult(true);
+                UserDataLoaded.TrySetException(new Exception("Failed to load XUserGetGamerTag from UserHandle"));
+                return; // Early return in case of error
             }
-            
+
             CurrentUserData.UserID = xuid.ToString();
             CurrentUserData.UserName = gamertag;
             CurrentUserData.UserNickname = gamertag;
-            
-           
-            
-            
+
+            // Continue with the rest of the method if no errors occurred
             SDK.XUserGetGamerPictureAsync(UserHandle, XUserGamerPictureSize.Small, CompletionRoutine);
         }
+
         
         private void CompletionRoutine(int hresult, byte[] buffer)
         {
@@ -399,7 +410,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                 Debug.LogError($"Error in CompletionRoutine: HRESULT = {hresult}");
             }
             Debug.Log($"Authentication, Login and set UserData Successful! {CurrentUserData.UserName}");
-            UserDataLoaded.SetResult(true);
+            UserDataLoaded.TrySetResult(true);
         }
 
        

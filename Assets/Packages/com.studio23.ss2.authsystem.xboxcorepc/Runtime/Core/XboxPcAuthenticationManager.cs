@@ -1,9 +1,12 @@
 using System;
 using System.Threading.Tasks;
+using Codice.Client.BaseCommands.Merge.IncomingChanges;
+using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
 using Studio23.SS2.Authsystem.XboxCorePC.Core;
 using UnityEngine;
 using XGamingRuntime;
+
 
 namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
 {
@@ -14,23 +17,15 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
         public override void Authenticate()
         {
             Login();
+            
         }
 
         
-        private void Login()
+        private async Task Login()
         {
             MSGdk.Helpers.InitAndSignIn();
-
-            MSGdk.Helpers.UserDataLoaded.Task.ContinueWith(task => 
-            {
-                if (task.IsCompleted)
-                {
-                    OnAuthSuccess.Invoke();
-                }
-            });
-           
-           
-
+            await MSGdk.Helpers.UserDataLoaded.Task;
+            OnAuthSuccess.Invoke();
         }
         
         public override UserData GetUserData()

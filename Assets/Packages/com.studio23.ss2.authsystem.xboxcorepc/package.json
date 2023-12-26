@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem.xboxcorepc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "displayName": "Authsystem XboxCorePC",
   "description": "This is a  package to streamline auth system for XBOX Core PC",
   "unity": "2022.3",
@@ -18,7 +18,8 @@
     }
   ],
   "dependencies": {
-    "com.studio23.ss2.authsystem": "2.0.2"
+    "com.studio23.ss2.authsystem": "2.0.2",
+    "com.cysharp.unitask": "2.5.0"
   },
   "keywords": [
     "XBOX CORE PC",
