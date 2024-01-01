@@ -31,8 +31,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5437802098586462581}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4218619787933636075
@@ -59,6 +58,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e31171f9b9741646bec7af11a39587b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnAuthSuccess:
+    m_PersistentCalls:
+      m_Calls: []
   AuthOnStart: 1
   _providerBase: {fileID: 11400000, guid: 745219e3e8d71264bb26357e5370da8f, type: 2}
 --- !u!114 &3421232056204109805
@@ -74,50 +76,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scid: 00000000-0000-0000-0000-0000649390c6
---- !u!1 &6330886858071836152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5437802098586462581}
-  - component: {fileID: 2624582070443217484}
-  m_Layer: 0
-  m_Name: CloudSaveLoad Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5437802098586462581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6330886858071836152}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1484049985585411764}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2624582070443217484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6330886858071836152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e79ebcc01a67fa54a84eafe8d3bb58a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  provider: {fileID: 11400000, guid: 20b984892c15f384c8a2b10ba01bbd91, type: 2}
-  IsCloudSaveLoaded: 0
-  IsCloudSaveLoadedTimeOver: 0

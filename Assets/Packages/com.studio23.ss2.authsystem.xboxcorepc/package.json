@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem.xboxcorepc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "displayName": "Authsystem XboxCorePC",
   "description": "This is a  package to streamline auth system for XBOX Core PC",
   "unity": "2022.3",
