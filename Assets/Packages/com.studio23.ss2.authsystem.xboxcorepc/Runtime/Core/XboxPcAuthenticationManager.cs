@@ -1,6 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using Codice.Client.BaseCommands.Merge.IncomingChanges;
 using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
 using Studio23.SS2.Authsystem.XboxCorePC.Core;
@@ -24,7 +23,8 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
         private async Task Login()
         {
             MSGdk.Helpers.InitAndSignIn();
-            await MSGdk.Helpers.UserDataLoaded.Task;
+            await MSGdk.Helpers.OnPostSignInTaskFinished.Task;
+            await UniTask.Delay(TimeSpan.FromSeconds(1));
             OnAuthSuccess.Invoke();
         }
         

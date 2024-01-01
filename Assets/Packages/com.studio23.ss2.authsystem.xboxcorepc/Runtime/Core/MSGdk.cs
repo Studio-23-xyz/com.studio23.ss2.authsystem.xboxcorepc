@@ -8,6 +8,7 @@ using System.Xml.Linq;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+ 
 using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.XboxCorePC.Core;
 using Studio23.SS2.AuthSystem.XboxCorePC.Utility;
@@ -79,7 +80,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
         
         private const int _MaxAssociatedProductsToRetrieve = 25;
 
-        public UserData CurrentUserData;
+      
       
         
        
@@ -167,10 +168,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             }
         }
 
-        private void Awake()
-        { 
-           //  _Initialize();
-        }
+        
         public void InitAndSignIn()
         {
             if (_initialized)
@@ -180,7 +178,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             
             _initialized = true;
             DontDestroyOnLoad(gameObject);
-            UserDataLoaded = new UniTaskCompletionSource<bool>();
+            OnPostSignInTaskFinished = new UniTaskCompletionSource<bool>();
             _hresultToFriendlyErrorLookup = new Dictionary<int, string>();
             InitializeHresultToFriendlyErrorLookup();
 
@@ -244,7 +242,19 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
          
          Save( data);
         }
+
         public void Delete(string key)
+        {
+            _GameSaveContainerName =  key;
+            _GameSaveBlobName =  $"{key}_blobBuffer";
+            Delete();
+            Debug.Log($"Delete successful " +
+                      $"_GameSaveContainerName: {_GameSaveContainerName}" +
+                      $"_GameSaveBlobName: {_GameSaveBlobName}" 
+                      );
+        }
+
+        private void Delete()
         {
             _gameSaveHelper.Delete(
                 _GameSaveContainerName,
@@ -301,12 +311,14 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
             Debug.Log($"Sing in success!");
             UserHandle = userHandle;
+           
             CompletePostSignInInitialization();
 
 
-            LoadUserDataAsync();
+          
         }
 
+       
         private void CompletePostSignInInitialization()
         {
             
@@ -319,16 +331,14 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                 ), "Create Xbox Live context");
             
             
-            
-            InitializeGameSaves();
-             
            
+            InitializeGameSaves();
         }
        
-        private void InitializeGameSaves()
+        public void InitializeGameSaves()
         {
             _gameSaveHelper.InitializeAsync(UserHandle, scid, XGameSaveInitializeCompleted);
-        }
+        } 
 
         private void XGameSaveInitializeCompleted(int hresult)
         {
@@ -336,6 +346,9 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             {
                 return;
             }
+
+            FetchUserDataAsync();
+
         }
 
         private void GameSaveSaveCompleted(int hresult)
@@ -345,39 +358,45 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
 
         private void GameSaveLoadCompleted(int hresult, byte[] savedData)
         {
-            /*if (!Succeeded(hresult, "Loaded Blob"))
-            {
-                return;
-            }*/
+             /*if (!Succeeded(hresult, "Loaded Blob"))
+             {
+                 return;
+             }*/
 
-            if (Helpers.OnGameSaveLoaded != null)
-            {
-                Helpers.OnGameSaveLoaded(Helpers, new GameSaveLoadedArgs(savedData));
-            }
+             if (Helpers.OnGameSaveLoaded != null)
+             {
+                 Helpers.OnGameSaveLoaded(Helpers, new GameSaveLoadedArgs(savedData));
+             }
         }
-        
-        public UniTaskCompletionSource<bool> UserDataLoaded;
-        [ContextMenu("LoadUserDataAsync")]
-        private async UniTask  LoadUserDataAsync()
+
+       
+       public UniTaskCompletionSource<bool> OnPostSignInTaskFinished;
+       public UserData CurrentUserData;
+       
+        [ContextMenu("Fetch User Data Async")]
+        private async UniTask  FetchUserDataAsync()
         {
             CurrentUserData = new UserData();
             await GetUserData();
-            await UserDataLoaded.Task;
+            await OnPostSignInTaskFinished.Task;
         }
-
+        
+        
+        
         private async UniTask GetUserData()
         {
+         
             if (!Succeeded(SDK.XUserGetId(UserHandle, out var xuid), "Get Xbox user ID"))
             {
                 Debug.LogError("Failed to load XUserGetId from UserHandle");
-                UserDataLoaded.TrySetException(new Exception("Failed to load XUserGetId from UserHandle"));
+                OnPostSignInTaskFinished.TrySetException(new Exception("Failed to load XUserGetId from UserHandle"));
                 return; // Early return in case of error
             }
 
             if (!Succeeded(SDK.XUserGetGamertag(UserHandle, XUserGamertagComponent.UniqueModern, out var gamertag), "Get GamerTag."))
             {
                 Debug.LogError("Failed to load XUserGetGamerTag from UserHandle");
-                UserDataLoaded.TrySetException(new Exception("Failed to load XUserGetGamerTag from UserHandle"));
+                OnPostSignInTaskFinished.TrySetException(new Exception("Failed to load XUserGetGamerTag from UserHandle"));
                 return; // Early return in case of error
             }
 
@@ -388,8 +407,8 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             // Continue with the rest of the method if no errors occurred
             SDK.XUserGetGamerPictureAsync(UserHandle, XUserGamerPictureSize.Small, CompletionRoutine);
         }
-
-        
+             
+           
         private void CompletionRoutine(int hresult, byte[] buffer)
         {
             if (hresult == 0 && buffer != null)  
@@ -410,7 +429,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
                 Debug.LogError($"Error in CompletionRoutine: HRESULT = {hresult}");
             }
             Debug.Log($"Authentication, Login and set UserData Successful! {CurrentUserData.UserName}");
-            UserDataLoaded.TrySetResult(true);
+            OnPostSignInTaskFinished.TrySetResult(true);
         }
 
        
@@ -438,7 +457,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Core
             {
                 foreach (var achievement in achievements)
                 {
-                    Debug.Log($"Achievement Id: {achievement.Id}; Name: {achievement.Name}; ProgressState: {achievement.ProgressState} ;");
+                   // Debug.Log($"Achievement Id: {achievement.Id}; Name: {achievement.Name}; ProgressState: {achievement.ProgressState} ;");
                     if(achievement.Progression.Requirements.Length > 0)
                         foreach (XblAchievementRequirement requirement in achievement.Progression.Requirements)
                         {
