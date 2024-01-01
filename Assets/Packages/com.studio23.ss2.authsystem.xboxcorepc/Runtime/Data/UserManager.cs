@@ -193,7 +193,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Data
         }
 
         State m_State = State.Idle;
-        UserData m_CurrentUserData;
+        public UserData m_CurrentUserData;
         AddUserCompletedDelegate m_CurrentCompletionDelegate;
         XRegistrationToken m_CallbackRegistrationToken;
 

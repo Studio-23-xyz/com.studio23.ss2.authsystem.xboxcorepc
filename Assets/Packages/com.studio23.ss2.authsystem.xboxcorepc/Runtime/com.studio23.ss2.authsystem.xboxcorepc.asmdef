@@ -2,9 +2,8 @@
     "name": "com.studio23.ss2.authsystem.xboxcorepc",
     "rootNamespace": "",
     "references": [
-        "GUID:661a6088aa5ffcf459b89da5f0fadcb1",
-        "GUID:f51ebe6a0ceec4240a699833d6309b23",
-        "GUID:941e0baf56c94a648a2ed7c0a3537b0f"
+        "GUID:941e0baf56c94a648a2ed7c0a3537b0f",
+        "GUID:661a6088aa5ffcf459b89da5f0fadcb1"
     ],
     "includePlatforms": [
         "Editor",
