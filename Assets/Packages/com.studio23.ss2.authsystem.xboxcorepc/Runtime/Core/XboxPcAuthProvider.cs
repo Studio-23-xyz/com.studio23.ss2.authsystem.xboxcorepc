@@ -6,9 +6,7 @@ using XGamingRuntime;
 
 namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
 {
-    [CreateAssetMenu(fileName = "AuthProvider", menuName = "Studio-23/Authentication System/Provider/XboxCorePc",
-        order = 1)]
-    public class XboxPcAuthenticationManager : ProviderBase
+    public class XboxPcAuthProvider : ProviderBase
     {
         public override void Authenticate()
         {

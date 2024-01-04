@@ -77,18 +77,6 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Data
                     m_State = State.WaitForNextTask;
                     GetUserImage();
                     break;
-                case State.ReturnMuteList:
-                    m_State = State.WaitForNextTask;
-                    GetMuteList();
-                    break;
-                case State.ReturnAvoidList:
-                    m_State = State.WaitForNextTask;
-                    GetAvoidList();
-                    break;
-                case State.UserPermissionsCheck:
-                    m_State = State.WaitForNextTask;
-                    GetUserMultiplayerPermissions();
-                    break;
                 case State.Error:
                     m_CurrentCompletionDelegate(UserOpResult.UnknownError);
                     m_CurrentCompletionDelegate = null;
@@ -137,6 +125,7 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Data
                 }
                 else
                 {
+                    Debug.Log("AddUser failed hresult: " + hresult + " user handle " + userHandle?.GetHashCode());
                     m_State = State.Idle;
                     m_CurrentCompletionDelegate(UserOpResult.UnknownError);
                 }
@@ -280,8 +269,8 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Data
             {
                 if (hresult == 0)
                 {
+                    m_State = State.End;
                     m_CurrentUserData.imageBuffer = buffer;
-                    m_State = State.ReturnMuteList;
                 }
                 else
                 {
@@ -292,60 +281,11 @@ namespace Studio23.SS2.Authsystem.XboxCorePC.Data
         }
 
         // User Mute List
-        void GetMuteList()
-        {
-            SDK.XBL.XblPrivacyGetMuteListAsync(m_CurrentUserData.m_context, (Int32 hresult, UInt64[] xuids) =>
-            {
-                if (hresult == 0)
-                {
-                    m_CurrentUserData.muteList = xuids;
-                    Debug.Log("Retrieved " + xuids.Length + " muted users");
-                    m_State = State.ReturnAvoidList;
-                }
-                else
-                {
-                    Debug.Log("Failed to retrive users mute list.");
-                    m_State = State.Error;
-                }
-            });
-        }
+       
 
-        // User Avoid List 
-        void GetAvoidList()
-        {
-            SDK.XBL.XblPrivacyGetAvoidListAsync(m_CurrentUserData.m_context, (Int32 hresult, UInt64[] xuids) =>
-            {
-                if (hresult == 0)
-                {
-                    m_CurrentUserData.avoidList = xuids;
-                    Debug.Log("Retrieved " + xuids.Length + "avoided users");
-                    m_State = State.UserPermissionsCheck;
-                }
-                else
-                {
-                    Debug.Log("Failed to retrive users avoid list");
-                    m_State = State.Error;
-                }
-            });
-        }
 
-        //Example of User PlayerMultiplayer Permssions retrieval
-        void GetUserMultiplayerPermissions()
-        {
-            SDK.XBL.XblPrivacyCheckPermissionAsync(m_CurrentUserData.m_context, XblPermission.PlayMultiplayer, m_CurrentUserData.userXUID, (Int32 hresult, XblPermissionCheckResult result) =>
-            {
-                if (hresult == 0)
-                {
-                    m_CurrentUserData.canPlayMultiplayer = result;
-                    m_State = State.End;
-                }
-                else
-                {
-                    Debug.Log("Failed to get user multiplayer permission");
-                    m_State = State.Error;
-                }
-            });
-        }
+
+       
 
         // Get the user's live context
         void GetUserContext()
