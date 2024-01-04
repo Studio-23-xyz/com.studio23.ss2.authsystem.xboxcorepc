@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1484049985585411764}
-  - component: {fileID: 4218619787933636075}
-  - component: {fileID: 6654189011141090030}
-  - component: {fileID: 3421232056204109805}
+  - component: {fileID: 8876877527514995935}
+  - component: {fileID: 2358399651599748320}
+  - component: {fileID: 1389510386443843015}
   m_Layer: 0
   m_Name: GameCoreAuth
   m_TagString: Untagged
@@ -34,19 +34,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4218619787933636075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898832542523927633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7882bc7b9fac6ef44bfff98978767e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6654189011141090030
+--- !u!114 &8876877527514995935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,9 +49,12 @@ MonoBehaviour:
   OnAuthSuccess:
     m_PersistentCalls:
       m_Calls: []
+  OnAuthFailed:
+    m_PersistentCalls:
+      m_Calls: []
   AuthOnStart: 1
   _providerBase: {fileID: 11400000, guid: 745219e3e8d71264bb26357e5370da8f, type: 2}
---- !u!114 &3421232056204109805
+--- !u!114 &2358399651599748320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,7 +63,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 898832542523927633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f396ad80b60648b845818203f236b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7882bc7b9fac6ef44bfff98978767e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scid: 00000000-0000-0000-0000-0000649390c6
+--- !u!114 &1389510386443843015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898832542523927633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3530c00dc1bc96488958eca60bca41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SCID: 
