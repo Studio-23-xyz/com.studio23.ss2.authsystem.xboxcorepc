@@ -1,22 +1,36 @@
+using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
 using Studio23.SS2.Authsystem.XboxCorePC.Data;
 using UnityEngine;
-using XGamingRuntime;
 
 
 namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
 {
     public class XboxPcAuthProvider : ProviderBase
     {
-        public override void Authenticate()
+        public override UniTask<int> Authenticate()
         {
-            GamingRuntimeManager.Instance.UserManager.UsersChanged += UserManager_UsersChanged;
+            UniTaskCompletionSource<int> _addUserTaskCompletionSource = new UniTaskCompletionSource<int>();
+            if (GamingRuntimeManager.Instance.UserManager.UserDataList.Count == 0)
+            {
+                GamingRuntimeManager.Instance.UserManager.AddDefaultUserSilently((result) =>
+                {
+                    _addUserTaskCompletionSource.TrySetResult((int) result);
+                });
+            }
+            else
+            {
+                GamingRuntimeManager.Instance.UserManager.AddUserWithUI((result) =>
+                {
+                    _addUserTaskCompletionSource.TrySetResult((int) result);
+                });
+            }
 
-            Login();
+            return _addUserTaskCompletionSource.Task;
         }
 
 
-        public override UserData GetUserData()
+        public override UniTask<UserData> GetUserData()
         {
             UserData userData = new UserData();
             UserManager.UserData currentUserData = GamingRuntimeManager.Instance.UserManager.m_CurrentUserData;
@@ -29,54 +43,9 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
             userData.UserAvatar = avatarTexture;
 
 
-            return userData;
+            return new UniTask<UserData>(userData);
         }
-
-
-        //User Login
-        public void Login()
-        {
-            // We attempt to add the first user as the default one, the others need to be explicitly selected
-            if (GamingRuntimeManager.Instance.UserManager.UserDataList.Count == 0)
-                GamingRuntimeManager.Instance.UserManager.AddDefaultUserSilently(AddUserCompleted);
-            else
-                GamingRuntimeManager.Instance.UserManager.AddUserWithUI(AddUserCompleted);
-
-        }
-
-
-        private void UserManager_UsersChanged(object sender, XUserChangeEvent e)
-        {
-            Debug.Log("User Logged IN Changed");
-        }
-
-
-        private void AddUserCompleted(UserManager.UserOpResult result)
-        {
-            switch (result)
-            {
-                case UserManager.UserOpResult.Success:
-                    {
-                        OnAuthSuccess?.Invoke();
-                        Debug.Log("User Succesfully Added");
-                        break;
-                    }
-                case UserManager.UserOpResult.NoDefaultUser:
-                    {
-                        GamingRuntimeManager.Instance.UserManager.AddUserWithUI(AddUserCompleted);
-                        break;
-                    }
-                case UserManager.UserOpResult.UnknownError:
-                    {
-                        OnAuthFailed?.Invoke();
-                        Debug.Log("Error adding user. Unknown error");
-                        break;
-                    }
-                default:
-                    break;
-            }
-        }
-
+ 
 
     }
 }

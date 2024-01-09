@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "XGamingRuntime",
-        "com.studio23.ss2.authsystem"
+        "com.studio23.ss2.authsystem",
+        "UniTask"
     ],
     "includePlatforms": [
         "Editor",
