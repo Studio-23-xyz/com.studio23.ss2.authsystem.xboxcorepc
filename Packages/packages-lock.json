@@ -8,10 +8,12 @@
       "url": "https://package.openupm.com"
     },
     "com.studio23.ss2.authsystem": {
-      "version": "3.0.0",
+      "version": "4.0.2",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.0"
+      },
       "url": "https://package.openupm.com"
     },
     "com.unity.collab-proxy": {

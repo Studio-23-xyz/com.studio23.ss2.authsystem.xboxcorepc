@@ -1,15 +1,30 @@
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 using Studio23.SS2.AuthSystem.Data;
 using Studio23.SS2.Authsystem.XboxCorePC.Data;
-using UnityEngine;
+using Studio23.SS2.AuthSystem.XboxCorePC.Core;
 
 
-namespace Studio23.SS2.AuthSystem.XboxCorePC.Core
+namespace Studio23.SS2.AuthSystem.XboxCorePC.Data
 {
+    [CreateAssetMenu(fileName = "GameCorePC Auth Provider", menuName = "Studio-23/AuthSystem/Providers/Game Core PC", order = 2)]
     public class XboxPcAuthProvider : ProviderBase
     {
+
+        private void OnEnable()
+        {
+            _providerType = ProviderTypes.XboxPc;
+        }
+
         public override UniTask<int> Authenticate()
         {
+
+            if(GamingRuntimeManager.Instance == null)
+            {
+                Debug.LogError("Gaming Runtime Manager not found. You can install from Studio-23>AuthSystem>DependencyInstaller>XBOXPC Runtime");
+                return new UniTask<int>(-2);
+            }
+
             UniTaskCompletionSource<int> _addUserTaskCompletionSource = new UniTaskCompletionSource<int>();
             if (GamingRuntimeManager.Instance.UserManager.UserDataList.Count == 0)
             {

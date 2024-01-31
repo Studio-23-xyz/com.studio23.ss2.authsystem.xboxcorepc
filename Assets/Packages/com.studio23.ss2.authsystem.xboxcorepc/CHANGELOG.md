@@ -1,4 +1,13 @@
+# Change Log
+
+## [0.9.0](2024-01-31)
+
+### Feature
+* Code Cleanup & Improvement
+
+
 ## [0.1.0](2024-01-09)
+
 ### Feature
 * XboxPcAuthProvider upgrade to async
 

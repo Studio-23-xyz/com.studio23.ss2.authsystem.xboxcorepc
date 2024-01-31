@@ -10,5 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 003aa81e990a12a46afc5cfe5073375c, type: 3}
-  m_Name: XBOX AuthProvider
+  m_Name: XBoxPCAuthProvider
   m_EditorClassIdentifier: 
+  _providerType: 3
