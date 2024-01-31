@@ -1,0 +1,4011 @@
+{
+  "sitemap": {
+    "baseUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem.xboxcorepc/"
+  },
+  "source_base_path": "/home/runner/work/com.studio23.ss2.authsystem.xboxcorepc/com.studio23.ss2.authsystem.xboxcorepc/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DontDestroyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DontDestroyUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Core.GamingRuntimeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Core.GamingRuntimeManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.XboxPcAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.XboxPcAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.AuthProviderEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.AuthProviderEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.DependencyInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.DependencyInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.XboxCorePC.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.AddUserCompletedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.AddUserCompletedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.UserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.UserData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.UserOpResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.UserOpResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.UserManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.Authsystem.XboxCorePC.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.EquatableHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.EquatableHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.HR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.HR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.AsyncHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.AsyncHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.DisposableBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.DisposableBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.DisposableCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.DisposableCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.HR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.HR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.InteropCallbackManager-1.HandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.InteropCallbackManager-1.HandlerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.InteropCallbackManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.InteropCallbackManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.Matchmaking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.Matchmaking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.Multiplayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.Multiplayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.XblRealTimeActivityConnectionStateChangeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.XblRealTimeActivityConnectionStateChangeHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.XblRealTimeActivityResyncHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.XblRealTimeActivityResyncHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.RealTimeActivity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.SizeT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.SizeT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.Social.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.Social.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.TimeT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.TimeT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.UserStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.UserStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XAsyncBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XAsyncBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XAsyncBlockPtr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XAsyncBlockPtr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XAsyncCompletionRoutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XAsyncCompletionRoutine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XTaskQueueDispatchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XTaskQueueDispatchMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XTaskQueueHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XTaskQueueHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XTaskQueuePort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XTaskQueuePort.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XTaskQueueRegistrationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XTaskQueueRegistrationToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XUserHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XUserHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblContextHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblContextHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblCreateMatchTicketResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblCreateMatchTicketResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblDeviceToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblDeviceToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblFunctionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblFunctionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblHopperStatisticsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblHopperStatisticsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMatchTicketDetailsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMatchTicketDetailsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerInviteHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerInviteHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerMatchmakingServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerMatchmakingServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerMemberInitialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerMemberInitialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerPeerToHostRequirements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerPeerToHostRequirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerPeerToPeerRequirements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerPeerToPeerRequirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerRoleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerRoleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionHandleId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionHandleId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionInitializationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionInitializationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionMember.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionMemberRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionMemberRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionReferenceUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionReferenceUri.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblMultiplayerSessionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblPreserveSessionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblPreserveSessionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblRealTimeActivityConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblRealTimeActivityConnectionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblRequestedStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblRequestedStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblServiceConfigurationStatistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblServiceConfigurationStatistic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblSocialNotificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblSocialNotificationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblSocialRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblSocialRelationship.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipChangedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblSocialRelationshipFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblStatistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblStatistic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblStatisticChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblStatisticChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblStatisticChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblStatisticChangedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblTicketStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblTicketStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XblUserStatisticsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XblUserStatisticsResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XboxLiveContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XboxLiveContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.XboxLiveGlobal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.XboxLiveGlobal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.Interop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsGetAchievementResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsGetAchievementResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsGetAchievementsForTitleIdResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsGetAchievementsForTitleIdResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsResultGetNextResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsResultGetNextResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsUpdateAchievementForTitleIdResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsUpdateAchievementForTitleIdResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsUpdateAchievementResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblAchievementsUpdateAchievementResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblCleanupResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblCleanupResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerConnectionIdChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerConnectionIdChangedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerCreateSearchHandleResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerCreateSearchHandleResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerDeleteSearchHandleResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerDeleteSearchHandleResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerGetActivitiesWithPropertiesResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerGetActivitiesWithPropertiesResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerGetSearchHandlesResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerGetSearchHandlesResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerQuerySessionsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerQuerySessionsResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSessionChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSessionChangedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSessionSubscriptionLostHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSessionSubscriptionLostHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSetTransferHandleResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerSetTransferHandleResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerWriteSessionHandleResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.XblMultiplayerWriteSessionHandleResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XBL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XBL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreDownloadAndInstallPackageUpdatesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreDownloadAndInstallPackageUpdatesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreDownloadAndInstallPackagesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreDownloadAndInstallPackagesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreDownloadPackageUpdatesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreDownloadPackageUpdatesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreGetUserCollectionsIdCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreGetUserCollectionsIdCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreGetUserPurchaseIdCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreGetUserPurchaseIdCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreQueryConsumableBalanceRemainingCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreQueryConsumableBalanceRemainingCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreQueryGameAndDlcPackageUpdatesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreQueryGameAndDlcPackageUpdatesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreReportConsumableFulfillmentCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreReportConsumableFulfillmentCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreShowAssociatedProductsPageUICompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreShowAssociatedProductsPageUICompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreShowProductPageUICompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreShowProductPageUICompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreShowPurchaseUICompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreShowPurchaseUICompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreShowRateAndReviewUICompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreShowRateAndReviewUICompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.XStoreShowRedeemTokenUICompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.XStoreShowRedeemTokenUICompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.SDK.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XClosedCaptionFontEdgeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XClosedCaptionFontEdgeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XClosedCaptionFontStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XClosedCaptionFontStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XClosedCaptionProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XClosedCaptionProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameInviteEventCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameInviteEventCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveBlob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveBlob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveBlobInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveBlobInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveContainerHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveContainerHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveContainerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveContainerInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveDeleteContainerCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveDeleteContainerCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveGetRemainingQuotaCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveGetRemainingQuotaCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveInitializeProviderCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveInitializeProviderCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveProviderHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveProviderHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveReadBlobDataCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveReadBlobDataCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveSubmitUpdateCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveSubmitUpdateCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameSaveUpdateHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameSaveUpdateHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiMessageDialogButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiMessageDialogButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiNotificationPositionHint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiNotificationPositionHint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowAchievementsCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowAchievementsCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowErrorDialogCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowErrorDialogCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowMessageDialogCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowMessageDialogCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowPlayerPickerAsyncCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowPlayerPickerAsyncCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowPlayerProfileCardAsyncCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowPlayerProfileCardAsyncCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowSendGameInviteAsyncCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowSendGameInviteAsyncCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowTextEntryAsyncCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowTextEntryAsyncCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiShowWebAuthenticationAsyncCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiShowWebAuthenticationAsyncCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiTextEntryInputScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiTextEntryInputScope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XGameUiWebAuthenticationResultData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XGameUiWebAuthenticationResultData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XHighContrastMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XHighContrastMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageChunkAvailability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageChunkAvailability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageChunkSelectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageChunkSelectorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageEnumerationScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageEnumerationScope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageFeature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageInstallationMonitorHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageInstallationMonitorHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageInstallationProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageInstallationProgress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageInstallationProgressCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageInstallationProgressCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageInstalledCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageInstalledCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageMountHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageMountHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XPackageWriteStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XPackageWriteStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XRegistrationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XRegistrationToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XSpeechToTextPositionHint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XSpeechToTextPositionHint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XSpeechToTextType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XSpeechToTextType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreAcquireLicenseForDurablesAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreAcquireLicenseForDurablesAsync.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreAcquireLicenseForPackageCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreAcquireLicenseForPackageCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreAddonLicense.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreAddonLicense.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreAvailability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreAvailability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseForPackageCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseForPackageCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseForStoreIdCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseForStoreIdCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreCanAcquireLicenseResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreCanLicenseStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreCanLicenseStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreCollectionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreCollectionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreConsumableResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreConsumableResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreDurationUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreDurationUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreGameLicense.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreGameLicense.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreGameLicenseChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreGameLicenseChangedCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreImage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreLicense.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreLicense.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStorePackageLicenseLostCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStorePackageLicenseLostCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStorePackageUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStorePackageUpdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStorePrice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStorePrice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreProduct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreProductKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreProductKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreQueryAddOnLicensesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreQueryAddOnLicensesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreQueryComplete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreQueryComplete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreQueryGameLicenseCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreQueryGameLicenseCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreQueryLicenseTokenCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreQueryLicenseTokenCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreRateAndReviewResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreRateAndReviewResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreSku.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreSku.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreSubscriptionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreSubscriptionInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XStoreVideo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XStoreVideo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserAddCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserAddCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserAddOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserAddOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserAgeGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserAgeGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserChangeEventCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserChangeEventCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGamerPictureSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGamerPictureSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGamertagComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGamertagComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGetGamerPictureCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGetGamerPictureCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16HttpHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16HttpHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserGetTokenAndSignatureUtf16Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserLocalId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserLocalId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserPrivilege.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserPrivilege.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserPrivilegeDenyReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserPrivilegeDenyReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserPrivilegeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserPrivilegeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserResolveIssueWithUiUtf16Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserResolveIssueWithUiUtf16Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserResolvePrivilegeWithUiCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserResolvePrivilegeWithUiCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserSignOutDeferralHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserSignOutDeferralHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XUserState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XUserState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementMediaAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementMediaAsset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementMediaAssetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementMediaAssetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementOrderBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementOrderBy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementParticipationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementParticipationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementProgressState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementProgressState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementProgression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementProgression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementRequirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementRequirement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementReward.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementReward.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementRewardType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementRewardType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementTimeWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementTimeWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementTitleAssociation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementTitleAssociation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAchievementsResultHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAchievementsResultHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblActivityCompletionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblActivityCompletionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblAnonymousUserType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblAnonymousUserType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblConnectionIdChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblConnectionIdChangedCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblConnectionResyncCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblConnectionResyncCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblConnectionStateChangeCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblConnectionStateChangeCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblContextHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblContextHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblDeviceToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblDeviceToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblErrorCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblErrorCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblGetSessionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblGetSessionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblGuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblGuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblHopperStatisticsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblHopperStatisticsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblHresult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblHresult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblHttpCallHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblHttpCallHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblHttpCallPerformCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblHttpCallPerformCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblHttpCallResponseBodyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblHttpCallResponseBodyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardGetLeaderboardCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardGetLeaderboardCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardGetNextCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardGetNextCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardQueryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardQueryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardRow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardSortOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardSortOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblLeaderboardStatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblLeaderboardStatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchTicket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchTicket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchTicketDetailsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchTicketDetailsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchmakingCreateTicketCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchmakingCreateTicketCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchmakingDeleteTicketCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchmakingDeleteTicketCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchmakingStatisticsCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchmakingStatisticsCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchmakingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchmakingStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMatchmakingTicketDetailsCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMatchmakingTicketDetailsCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityEncounterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityEncounterType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityGetActivityCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityGetActivityCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityJoinRestriction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityJoinRestriction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityOperationCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityOperationCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityPlatform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerActivityRecentPlayerUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerActivityRecentPlayerUpdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerConnectionAddressDeviceTokenPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerConnectionAddressDeviceTokenPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerEventArgsHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerEventArgsHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerEventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerHandlerCallbackToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerHandlerCallbackToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerInitializationStage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerInitializationStage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerJoinability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerJoinability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerManagerMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerManagerMember.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerMatchStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerMatchStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerMatchmakingServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerMatchmakingServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerMeasurementFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerMeasurementFailure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerMemberInitialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerMemberInitialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerMetrics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerPeerToHostRequirements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerPeerToHostRequirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerPeerToPeerRequirements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerPeerToPeerRequirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerPerformQoSMeasurementsArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerPerformQoSMeasurementsArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerRoleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerRoleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSearchHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSearchHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionChangeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionChangeTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionInitArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionInitArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionInitializationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionInitializationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionMember.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionMemberRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionMemberRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionMemberStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionMemberStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionNumberAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionNumberAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionRestriction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionRestriction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionStringAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionStringAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionVisibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMultiplayerSessionWriteMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMultiplayerSessionWriteMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblMutableRoleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblMutableRoleSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblNetworkAddressTranslationSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblNetworkAddressTranslationSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPermissionCheckResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPermissionCheckResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPermissionDenyReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPermissionDenyReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPermissionDenyReasonDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPermissionDenyReasonDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPreferredColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPreferredColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceBroadcastProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceBroadcastProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceBroadcastRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceBroadcastRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceDetailLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceDetailLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceDeviceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceDeviceRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceDeviceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceGetPresenceCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceGetPresenceCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceGetPresenceForMultipleUsersCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceGetPresenceForMultipleUsersCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceGetPresenceForSocialGroupCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceGetPresenceForSocialGroupCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceMediaIdType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceMediaIdType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceQueryFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceQueryFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceRecordHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceRecordHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceRichPresenceIds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceRichPresenceIds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceSetPresenceCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceSetPresenceCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceTitleRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceTitleRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceTitleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceTitleState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceTitleViewState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceTitleViewState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPresenceUserState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPresenceUserState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPreserveSessionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPreserveSessionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivacyBatchCheckPermissionCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivacyBatchCheckPermissionCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivacyCheckPermissionCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivacyCheckPermissionCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivacyGetAvoidListCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivacyGetAvoidListCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivacyGetMuteListCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivacyGetMuteListCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivacySetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivacySetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblPrivilege.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblPrivilege.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblProfileGetUserProfileCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblProfileGetUserProfileCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblProfileGetUserProfilesCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblProfileGetUserProfilesCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblProfileGetUserProfilesForSocialGroupCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblProfileGetUserProfilesForSocialGroupCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblRealTimeActivityCallbackToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblRealTimeActivityCallbackToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblRealTimeActivityConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblRealTimeActivityConnectionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblRelationshipFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblRelationshipFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblRequestedStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblRequestedStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSendInvitesCompletionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSendInvitesCompletionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblServiceConfigurationStatistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblServiceConfigurationStatistic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSessionChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSessionChangedCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialGroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialGroupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerEventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerExtraDetailLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerExtraDetailLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerPresenceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerPresenceRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerPresenceTitleRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerPresenceTitleRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialManagerUserGroupHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialManagerUserGroupHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialRelationship.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialRelationshipCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialRelationshipCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialRelationshipChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialRelationshipChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialRelationshipChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialRelationshipChangedCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialRelationshipFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialRelationshipFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSocialUserGroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSocialUserGroupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblStatistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblStatistic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblStatisticChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblStatisticChangeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblStatisticChangedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblStatisticChangedCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblStringVerifyStringCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblStringVerifyStringCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblStringVerifyStringsCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblStringVerifyStringsCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblSubscriptionLostCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblSubscriptionLostCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTitleHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTitleHistory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTitleManagedStatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTitleManagedStatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTitleManagedStatistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTitleManagedStatistic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTitleManagedStatsOperationCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTitleManagedStatsOperationCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentArbitrationStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentArbitrationStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentGameResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentGameResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentGameResultWithRank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentGameResultWithRank.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentRegistrationReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentRegistrationReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentRegistrationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentRegistrationState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblTournamentTeamResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblTournamentTeamResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserStatisticsGetMultipleUserStatisticsCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserStatisticsGetMultipleUserStatisticsCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserStatisticsGetMultipleUserStatisticsForMultipleServiceConfigurationsCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserStatisticsGetMultipleUserStatisticsForMultipleServiceConfigurationsCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserStatisticsGetSingleUserStatisticCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserStatisticsGetSingleUserStatisticCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserStatisticsGetSingleUserStatisticsCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserStatisticsGetSingleUserStatisticsCompleted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblUserStatisticsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblUserStatisticsResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblVerifyStringResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblVerifyStringResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblVerifyStringResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblVerifyStringResultCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblWriteSessionByHandleCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblWriteSessionByHandleCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.XblWriteSessionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.XblWriteSessionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XGamingRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XGamingRuntime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

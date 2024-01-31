@@ -1,0 +1,906 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Converters |  |  </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Converters |  |  ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/new/main/apiSpec/new?filename=XGamingRuntime_Interop_Converters.md&amp;value=---%0Auid%3A%20XGamingRuntime.Interop.Converters%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="XGamingRuntime.Interop.Converters">
+
+
+
+  <h1 id="XGamingRuntime_Interop_Converters" data-uid="XGamingRuntime.Interop.Converters" class="text-break">
+Class Converters  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="XGamingRuntime.html">XGamingRuntime</a>.<a class="xref" href="XGamingRuntime.Interop.html">Interop</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Converters</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Converters</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="XGamingRuntime_Interop_Converters_ByteArrayToString_" data-uid="XGamingRuntime.Interop.Converters.ByteArrayToString*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_ByteArrayToString_System_Byte___" data-uid="XGamingRuntime.Interop.Converters.ByteArrayToString(System.Byte[])">
+  ByteArrayToString(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ByteArrayToString(byte[] arr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_ByteArrayToString_" data-uid="XGamingRuntime.Interop.Converters.ByteArrayToString*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_ByteArrayToString_System_Byte___System_Int32_System_Int32_" data-uid="XGamingRuntime.Interop.Converters.ByteArrayToString(System.Byte[],System.Int32,System.Int32)">
+  ByteArrayToString(byte[], int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ByteArrayToString(byte[] arr, int index, int count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_BytePointerToString_" data-uid="XGamingRuntime.Interop.Converters.BytePointerToString*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_BytePointerToString_System_Byte__System_Int32_" data-uid="XGamingRuntime.Interop.Converters.BytePointerToString(System.Byte*,System.Int32)">
+  BytePointerToString(byte*, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BytePointerToString(byte* bytePointer, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytePointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>*</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_ClassArrayToPtr_" data-uid="XGamingRuntime.Interop.Converters.ClassArrayToPtr*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_ClassArrayToPtr__2___0___System_Func___0_XGamingRuntime_Interop_DisposableCollection___1__XGamingRuntime_Interop_DisposableCollection_System_UInt32__" data-uid="XGamingRuntime.Interop.Converters.ClassArrayToPtr``2(``0[],System.Func{``0,XGamingRuntime.Interop.DisposableCollection,``1},XGamingRuntime.Interop.DisposableCollection,System.UInt32@)">
+  ClassArrayToPtr&lt;ClassType, InteropStructType&gt;(ClassType[], Func&lt;ClassType, DisposableCollection, InteropStructType&gt;, DisposableCollection, out uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static nint ClassArrayToPtr&lt;ClassType, InteropStructType&gt;(ClassType[] inputTypes, Func&lt;ClassType, DisposableCollection, InteropStructType&gt; converter, DisposableCollection disposableCollection, out uint arrayCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputTypes</code> ClassType[]</dt>
+    <dd></dd>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;ClassType, <a class="xref" href="XGamingRuntime.Interop.DisposableCollection.html">DisposableCollection</a>, InteropStructType&gt;</dt>
+    <dd></dd>
+    <dt><code>disposableCollection</code> <a class="xref" href="XGamingRuntime.Interop.DisposableCollection.html">DisposableCollection</a></dt>
+    <dd></dd>
+    <dt><code>arrayCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_ClassArrayToPtr_" data-uid="XGamingRuntime.Interop.Converters.ClassArrayToPtr*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_ClassArrayToPtr__2___0___System_Func___0_XGamingRuntime_Interop_DisposableCollection___1__XGamingRuntime_Interop_DisposableCollection_XGamingRuntime_Interop_SizeT__" data-uid="XGamingRuntime.Interop.Converters.ClassArrayToPtr``2(``0[],System.Func{``0,XGamingRuntime.Interop.DisposableCollection,``1},XGamingRuntime.Interop.DisposableCollection,XGamingRuntime.Interop.SizeT@)">
+  ClassArrayToPtr&lt;ClassType, InteropStructType&gt;(ClassType[], Func&lt;ClassType, DisposableCollection, InteropStructType&gt;, DisposableCollection, out SizeT)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static nint ClassArrayToPtr&lt;ClassType, InteropStructType&gt;(ClassType[] inputTypes, Func&lt;ClassType, DisposableCollection, InteropStructType&gt; converter, DisposableCollection disposableCollection, out SizeT arrayCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputTypes</code> ClassType[]</dt>
+    <dd></dd>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;ClassType, <a class="xref" href="XGamingRuntime.Interop.DisposableCollection.html">DisposableCollection</a>, InteropStructType&gt;</dt>
+    <dd></dd>
+    <dt><code>disposableCollection</code> <a class="xref" href="XGamingRuntime.Interop.DisposableCollection.html">DisposableCollection</a></dt>
+    <dd></dd>
+    <dt><code>arrayCount</code> <a class="xref" href="XGamingRuntime.Interop.SizeT.html">SizeT</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_ConvertArrayToFixedLength_" data-uid="XGamingRuntime.Interop.Converters.ConvertArrayToFixedLength*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_ConvertArrayToFixedLength__2___0___System_Int32_System_Func___0___1__" data-uid="XGamingRuntime.Interop.Converters.ConvertArrayToFixedLength``2(``0[],System.Int32,System.Func{``0,``1})">
+  ConvertArrayToFixedLength&lt;ClassType, InteropStructType&gt;(ClassType[], int, Func&lt;ClassType, InteropStructType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteropStructType[] ConvertArrayToFixedLength&lt;ClassType, InteropStructType&gt;(ClassType[] classes, int length, Func&lt;ClassType, InteropStructType&gt; ctor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>classes</code> ClassType[]</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ctor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;ClassType, InteropStructType&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>InteropStructType[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_GetSizeRequiredToEncodeStringToUTF8_" data-uid="XGamingRuntime.Interop.Converters.GetSizeRequiredToEncodeStringToUTF8*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_GetSizeRequiredToEncodeStringToUTF8_System_String_" data-uid="XGamingRuntime.Interop.Converters.GetSizeRequiredToEncodeStringToUTF8(System.String)">
+  GetSizeRequiredToEncodeStringToUTF8(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetSizeRequiredToEncodeStringToUTF8(string str)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_NullTerminatedBytePointerToString_" data-uid="XGamingRuntime.Interop.Converters.NullTerminatedBytePointerToString*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_NullTerminatedBytePointerToString_System_Byte__" data-uid="XGamingRuntime.Interop.Converters.NullTerminatedBytePointerToString(System.Byte*)">
+  NullTerminatedBytePointerToString(byte*)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NullTerminatedBytePointerToString(byte* bytePointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytePointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>*</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_Offset_" data-uid="XGamingRuntime.Interop.Converters.Offset*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_Offset_System_IntPtr_System_Int64_" data-uid="XGamingRuntime.Interop.Converters.Offset(System.IntPtr,System.Int64)">
+  Offset(nint, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static nint Offset(this nint ptr, long that)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ptr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+    <dt><code>that</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_PtrToClassArray_" data-uid="XGamingRuntime.Interop.Converters.PtrToClassArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_PtrToClassArray__2_System_IntPtr_System_UInt32_System_Func___1___0__" data-uid="XGamingRuntime.Interop.Converters.PtrToClassArray``2(System.IntPtr,System.UInt32,System.Func{``1,``0})">
+  PtrToClassArray&lt;ClassType, InteropStructType&gt;(nint, uint, Func&lt;InteropStructType, ClassType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ClassType[] PtrToClassArray&lt;ClassType, InteropStructType&gt;(nint rawPtr, uint count, Func&lt;InteropStructType, ClassType&gt; ctor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rawPtr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>ctor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;InteropStructType, ClassType&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>ClassType[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_PtrToClassArray_" data-uid="XGamingRuntime.Interop.Converters.PtrToClassArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_PtrToClassArray__2_System_IntPtr_XGamingRuntime_Interop_SizeT_System_Func___1___0__" data-uid="XGamingRuntime.Interop.Converters.PtrToClassArray``2(System.IntPtr,XGamingRuntime.Interop.SizeT,System.Func{``1,``0})">
+  PtrToClassArray&lt;ClassType, InteropStructType&gt;(nint, SizeT, Func&lt;InteropStructType, ClassType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ClassType[] PtrToClassArray&lt;ClassType, InteropStructType&gt;(nint rawPtr, SizeT count, Func&lt;InteropStructType, ClassType&gt; ctor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rawPtr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="XGamingRuntime.Interop.SizeT.html">SizeT</a></dt>
+    <dd></dd>
+    <dt><code>ctor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;InteropStructType, ClassType&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>ClassType[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_PtrToClass_" data-uid="XGamingRuntime.Interop.Converters.PtrToClass*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_PtrToClass__2_System_IntPtr_System_Func___1___0__" data-uid="XGamingRuntime.Interop.Converters.PtrToClass``2(System.IntPtr,System.Func{``1,``0})">
+  PtrToClass&lt;ClassType, InteropStructType&gt;(nint, Func&lt;InteropStructType, ClassType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ClassType PtrToClass&lt;ClassType, InteropStructType&gt;(nint rawPtr, Func&lt;InteropStructType, ClassType&gt; ctor) where ClassType : class where InteropStructType : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rawPtr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+    <dt><code>ctor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;InteropStructType, ClassType&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ClassType</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ClassType</code></dt>
+    <dd></dd>
+    <dt><code>InteropStructType</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_PtrToStringUTF8_" data-uid="XGamingRuntime.Interop.Converters.PtrToStringUTF8*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_PtrToStringUTF8_System_IntPtr_" data-uid="XGamingRuntime.Interop.Converters.PtrToStringUTF8(System.IntPtr)">
+  PtrToStringUTF8(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PtrToStringUTF8(nint rawPtr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rawPtr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_StringArrayToUTF8StringArray_" data-uid="XGamingRuntime.Interop.Converters.StringArrayToUTF8StringArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_StringArrayToUTF8StringArray_System_String___" data-uid="XGamingRuntime.Interop.Converters.StringArrayToUTF8StringArray(System.String[])">
+  StringArrayToUTF8StringArray(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DisposableBuffer StringArrayToUTF8StringArray(string[] strings)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>strings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="XGamingRuntime.Interop.DisposableBuffer.html">DisposableBuffer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_StringArrayToUTF8StringArray_" data-uid="XGamingRuntime.Interop.Converters.StringArrayToUTF8StringArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_StringArrayToUTF8StringArray_System_String___XGamingRuntime_Interop_DisposableCollection_XGamingRuntime_Interop_SizeT__" data-uid="XGamingRuntime.Interop.Converters.StringArrayToUTF8StringArray(System.String[],XGamingRuntime.Interop.DisposableCollection,XGamingRuntime.Interop.SizeT@)">
+  StringArrayToUTF8StringArray(string[], DisposableCollection, out SizeT)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static nint StringArrayToUTF8StringArray(string[] strings, DisposableCollection disposableCollection, out SizeT count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>strings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>disposableCollection</code> <a class="xref" href="XGamingRuntime.Interop.DisposableCollection.html">DisposableCollection</a></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="XGamingRuntime.Interop.SizeT.html">SizeT</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8ByteArray_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8ByteArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8ByteArray_System_String_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8ByteArray(System.String)">
+  StringToNullTerminatedUTF8ByteArray(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] StringToNullTerminatedUTF8ByteArray(string str)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8ByteArray_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8ByteArray*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8ByteArray_System_String_System_Int32_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8ByteArray(System.String,System.Int32)">
+  StringToNullTerminatedUTF8ByteArray(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] StringToNullTerminatedUTF8ByteArray(string str, int requiredByteArrayLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>requiredByteArrayLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8FixedPointer_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8FixedPointer*"></a>
+
+  <h3 id="XGamingRuntime_Interop_Converters_StringToNullTerminatedUTF8FixedPointer_System_String_System_Byte__System_Int32_" data-uid="XGamingRuntime.Interop.Converters.StringToNullTerminatedUTF8FixedPointer(System.String,System.Byte*,System.Int32)">
+  StringToNullTerminatedUTF8FixedPointer(string, byte*, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc/blob/main/Assets/GDK-APIs/Runtime/Source/Interop/Converters.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StringToNullTerminatedUTF8FixedPointer(string str, byte* bytePointer, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>str</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>bytePointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>*</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/Studio-23-xyz" target="_blank">Studio-23-xyz</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
