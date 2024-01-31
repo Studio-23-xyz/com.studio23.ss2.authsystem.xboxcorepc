@@ -1,0 +1,42 @@
+{
+  "name": "com.studio23.ss2.authsystem.xboxcorepc",
+  "version": "0.9.1",
+  "displayName": "Authsystem.XboxCorePC",
+  "description": "This is a  package to streamline auth system for XBOX Core PC",
+  "unity": "2022.3",
+  "unityRelease": "14f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2.authsystem"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.studio23.ss2.authsystem": "4.0.2",
+    "com.cysharp.unitask": "2.5.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Basic Demonstration",
+      "path": "Samples~/Demo"
+    }   
+  ],  
+  "keywords": [
+    "XBOX CORE PC",
+    "XboxCorePC",
+    "Authsystem",
+    "Authentication"
+  ],
+  "author": {
+    "name": "Studio 23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
