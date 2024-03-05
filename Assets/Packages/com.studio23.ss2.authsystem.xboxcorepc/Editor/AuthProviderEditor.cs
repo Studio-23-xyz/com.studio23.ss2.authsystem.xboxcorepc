@@ -22,7 +22,7 @@ namespace Studio23.SS2.AuthSystem.XboxCorePC.Editor
             }
 
             // Create the ScriptableObject asset in the resource folder
-            string assetPath = resourceFolderPath + "/XBoxPCAuthProvider.asset";
+            string assetPath = resourceFolderPath + "/AuthProvider.asset";
             AssetDatabase.CreateAsset(providerSettings, assetPath);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

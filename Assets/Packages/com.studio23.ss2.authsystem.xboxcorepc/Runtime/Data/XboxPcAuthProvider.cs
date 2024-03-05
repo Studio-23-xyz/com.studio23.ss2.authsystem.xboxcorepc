@@ -7,14 +7,11 @@ using Studio23.SS2.AuthSystem.XboxCorePC.Core;
 
 namespace Studio23.SS2.AuthSystem.XboxCorePC.Data
 {
-    [CreateAssetMenu(fileName = "GameCorePC Auth Provider", menuName = "Studio-23/AuthSystem/Providers/Game Core PC", order = 2)]
-    public class XboxPcAuthProvider : ProviderBase
+    
+    public class XboxPcAuthProvider : AuthProviderBase
     {
 
-        private void OnEnable()
-        {
-            _providerType = ProviderTypes.XboxPc;
-        }
+        
 
         public override UniTask<int> Authenticate()
         {
