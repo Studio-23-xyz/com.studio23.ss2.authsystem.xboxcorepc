@@ -22,7 +22,7 @@
   "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.XboxPcAuthProvider.html": {
     "href": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.XboxPcAuthProvider.html",
     "title": "Class XboxPcAuthProvider | |",
-    "keywords": "Class XboxPcAuthProvider Namespace Studio23.SS2.AuthSystem.XboxCorePC.Data public class XboxPcAuthProvider : ProviderBase Inheritance object XboxPcAuthProvider Methods Authenticate() public override UniTask<int> Authenticate() Returns UniTask<int> GetUserData() public override UniTask<UserData> GetUserData() Returns UniTask<UserData>"
+    "keywords": "Class XboxPcAuthProvider Namespace Studio23.SS2.AuthSystem.XboxCorePC.Data public class XboxPcAuthProvider : AuthProviderBase Inheritance object XboxPcAuthProvider Methods Authenticate() public override UniTask<int> Authenticate() Returns UniTask<int> GetUserData() public override UniTask<UserData> GetUserData() Returns UniTask<UserData>"
   },
   "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.html": {
     "href": "api/Studio23.SS2.AuthSystem.XboxCorePC.Data.html",
@@ -1959,6 +1959,11 @@
     "title": "| |",
     "keywords": "This is the documentation for the Scripting APIs of this package."
   },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Change Log | |",
+    "keywords": "Change Log 1.0.0 Feature Removed Type Dependency 0.9.0 Feature Code Cleanup & Improvement 0.1.0 Feature XboxPcAuthProvider upgrade to async 0.0.3 Feature Uni task add Script upgrade to uni task 0.0.3 Feature UserData - upgrade async 0.0.1 Feature UserData - method added 0.0.0 Feature Added new cutting edge mechanics to make your life dicier and slicer."
+  },
   "index.html": {
     "href": "index.html",
     "title": "| |",
@@ -1967,11 +1972,11 @@
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
     "title": "| |",
-    "keywords": "MIT License Copyright (c) 2023 Md Maruf Billa Opu Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "keywords": "Copyright 2023 Studio-23 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "com.studio23.ss2.authsystem.xboxcorepc | |",
-    "keywords": "com.studio23.ss2.authsystem.xboxcorepc Xbox core pc : used to Authenticate xbox authenticatoin"
+    "title": "Authentication System.XboxCorePC | |",
+    "keywords": "Authentication System.XboxCorePC This is a package to streamline authentication system for XBOX Core PC Table of Contents Installation Usage Installation Install via Git URL You can also use the \"Install from Git URL\" option from Unity Package Manager to install the package. https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.xboxcorepc.git#upm Package Manager open Edit/Project Settings/Package Manager add a new Scoped Registry (or edit the existing OpenUPM entry) Name package.openupm.com URL https://package.openupm.com Scope(s) com.cysharp.unitask com.studio23.ss2.authsystem.xboxcorepc click Save or Apply open Window/Package Manager click + select Add package by name... or Add package from git URL... paste com.studio23.ss2.authsystem.xboxcorepc into name click Add Usage Fromt top toolbar Studio-23>AuthSystem>Provider>XboxCorePC Studio-23>AuthSystem>DependencyInstaller>XBoxCorePCRuntime"
   }
 }
